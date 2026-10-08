@@ -1,0 +1,163 @@
+{
+  "capturedAt": "2026-10-08",
+  "source": "Déploiements GitHub Pages publics",
+  "brandSource": "external_website/src/assets/brand/antlLogo.png",
+  "templates": [
+    {
+      "id": "01",
+      "url": "https://antl-software.github.io/antl-landing-page-template-01/",
+      "screenshots": [
+        {
+          "file": "01-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "01-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "01-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "01-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "url": "https://antl-software.github.io/antl-landing-page-template-02/",
+      "screenshots": [
+        {
+          "file": "02-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "02-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "02-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "02-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "url": "https://antl-software.github.io/antl-landing-page-template-03/",
+      "screenshots": [
+        {
+          "file": "03-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "03-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "03-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "03-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "url": "https://antl-software.github.io/antl-landing-page-template-04/",
+      "screenshots": [
+        {
+          "file": "04-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "04-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "04-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "04-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "url": "https://antl-software.github.io/antl-landing-page-template-05/",
+      "screenshots": [
+        {
+          "file": "05-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "05-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "05-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "05-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "url": "https://antl-software.github.io/antl-landing-page-template-06/",
+      "screenshots": [
+        {
+          "file": "06-desktop-home.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "06-desktop-detail.jpg",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "file": "06-mobile-home.jpg",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "file": "06-mobile-detail.jpg",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    }
+  ]
+}
