@@ -29,9 +29,9 @@ test("brand stays lowercase in authored editorial copy", () => {
   const copy = readFileSync(new URL("../src/content/site.ts", import.meta.url), "utf8");
   assert.equal(/ANTL|Antl/.test(copy), false);
 });
-test("assets and build use the repository base path", () => {
+test("assets support Vercel and the GitHub Pages base path", () => {
   const config = readFileSync(new URL("../vite.config.ts", import.meta.url), "utf8");
-  assert.ok(config.includes('base: "/antl-sites-showcase/"'));
+  assert.ok(config.includes('process.env.DEPLOY_TARGET === "github-pages" ? "/antl-sites-showcase/" : "/"'));
   const assets = readFileSync(new URL("../src/utils/assets.ts", import.meta.url), "utf8");
   assert.ok(assets.includes("import.meta.env.BASE_URL"));
 });

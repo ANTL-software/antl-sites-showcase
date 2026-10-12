@@ -1,5 +1,8 @@
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { ShowcasePage } from "./views/layouts";
 import "./utils/styles/global.scss";
-createRoot(document.getElementById("root")!).render(<StrictMode><ShowcasePage /></StrictMode>);
+const root = document.getElementById("root")!;
+const app = <StrictMode><ShowcasePage /></StrictMode>;
+if (root.hasChildNodes()) hydrateRoot(root, app);
+else createRoot(root).render(app);
