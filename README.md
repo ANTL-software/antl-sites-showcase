@@ -41,8 +41,18 @@ Les ancres restent sur la page unique : pas de router ni de redirection SPA à c
 
 Ces sites sont des bases fictives, pas des références clients. Les modules de réservation/adhésion/paiement sont des démos ou intégrations configurables, pas des promesses de services actifs. Aucun prix, témoignage ou client réel n'est inventé. Les appels de contact pointent sur antl.fr/contact_us.
 
-Les polices Google sont demandées au chargement, comme sur le site d'entreprise. Aucun outil d'analytics ni iframe tierce intégré. Les captures sont servies localement, sans charger six sites dans des iframes.
+Les polices Google sont demandées au chargement, comme sur le site d'entreprise. Google Analytics et Vercel Web Analytics ne se chargent qu’après acceptation de la mesure d’audience. Aucune iframe tierce intégrée. Les captures sont servies localement, sans charger six sites dans des iframes.
 
 ## Recette
 
 Contrôler filtres, desktop/mobile, passage des slides, ouverture/fermeture de dialogue (y compris Échap), focus clavier, démos, contact, assets à la racine Vercel et sous le chemin GitHub Pages et absence de débordement. Validation de viewport simulé à compléter sur des appareils physiques.
+
+## Confidentialité et mesure d’audience
+
+La fenêtre de consentement s’inspire du site personnel `ndecressac.fr`, avec l’identité antl. Accepter et refuser sont proposés au même niveau ; personnalisation sans option précochée. Le bouton « Gérer mes cookies » permet de rouvrir les choix. Le panneau est non bloquant : le fermer ne donne aucun consentement.
+
+Le choix versionné est conservé en local pendant six mois, séparément sur chaque origine. Le stockage indisponible ne bloque pas le site. Google Analytics (`G-47QNW9WCG8`, propriété existante d’antl.fr) et Vercel Web Analytics restent désactivés tant que la mesure d’audience n’est pas acceptée. Les visites des deux sites se distinguent par leur hostname dans Google Analytics. Le retrait arrête Google Analytics, efface ses cookies accessibles et recharge la page pour enlever tous les écouteurs tiers. Les autres onglets du même site suivent le changement de choix.
+
+Les cookies Google sont limités à 180 jours et au hostname du site ; les paramètres d’URL sont retirés des adresses de pages envoyées. Les signaux publicitaires Google sont désactivés. Vercel Web Analytics doit être activé dans le dashboard du projet (Hobby inclus pour le showcase). Les bloqueurs peuvent empêcher la collecte, même après acceptation.
+
+Les informations et liens des fournisseurs figurent sur `https://antl.fr/legal#confidentialite`. Tests : `npm test` ; build : `npm run build`.

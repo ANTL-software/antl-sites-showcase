@@ -6,3 +6,5 @@ export { ContactSection } from "./ContactSection";
 export { SiteFooter } from "./SiteFooter";
 export { TemplateCard } from "./TemplateCard";
 export { PreviewCarousel } from "./PreviewCarousel";
+export { CookieConsent } from "./CookieConsent/CookieConsent";
+export { AudienceMeasurement } from "./AudienceMeasurement/AudienceMeasurement";

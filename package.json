@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build && vite build --ssr src/entry-server.tsx --outDir .prerender && node scripts/prerender.mjs && node --test tests/build.test.mjs",
     "preview": "vite preview",
-    "test": "node --test tests/catalog.test.mjs",
+    "test": "node --test tests/cookie-consent.test.mjs tests/catalog.test.mjs",
     "verify": "npm test && npm run build"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.7.0"

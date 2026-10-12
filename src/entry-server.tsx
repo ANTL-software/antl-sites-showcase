@@ -1,10 +1,11 @@
+import { CookieConsentProvider } from "./context";
 import { StrictMode } from "react";
 import { renderToString } from "react-dom/server";
 import { ShowcasePage } from "./views/layouts";
 import { site, templates } from "./content";
 
 export function render() {
-  return renderToString(<StrictMode><ShowcasePage /></StrictMode>);
+  return renderToString(<StrictMode><CookieConsentProvider><ShowcasePage /></CookieConsentProvider></StrictMode>);
 }
 
 export const structuredData = {
