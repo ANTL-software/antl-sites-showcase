@@ -1,5 +1,5 @@
-import type { Template } from "../types";
-const previews = (id: string, detail: string) => [
+import type { Preview, Template } from "../types";
+const previews = (id: string, detail: string): Preview[] => [
   { file: `${id}-desktop-home.jpg`, label: "Accueil", device: "desktop" as const, width: 1440, height: 1000 },
   { file: `${id}-desktop-detail.jpg`, label: detail, device: "desktop" as const, width: 1440, height: 1000 },
   { file: `${id}-mobile-home.jpg`, label: "Accueil", device: "mobile" as const, width: 390, height: 844 },
@@ -13,4 +13,6 @@ export const templates: readonly Template[] = [
   { id: "04", name: "Garage Élan", business: "Garages & concessionnaires", description: "Mettre vos véhicules, votre atelier et votre accompagnement en valeur, avec une présentation soignée et accessible.", categories: ["showcase"], features: ["Sélection de véhicules", "Services de l’atelier", "Contact local"], demoUrl: demo("04"), accent: "#e7eccd", previews: previews("04", "Les véhicules") },
   { id: "05", name: "Maison Levain", business: "Boulangeries & pâtisseries", description: "Une vitrine chaleureuse qui fait la part belle aux produits et au geste artisanal, avec des demandes de précommande.", categories: ["showcase", "commerce"], features: ["Vitrine des produits", "Demandes de précommande", "Retrait & horaires"], demoUrl: demo("05"), accent: "#f3ded2", previews: previews("05", "La vitrine du jour") },
   { id: "06", name: "Studio Parallèle", business: "Salons de coiffure", description: "Une identité contemporaine pour présenter vos prestations et permettre à vos clients de choisir leur prochain rendez-vous.", categories: ["showcase", "booking"], features: ["Prestations & tarifs", "Prise de rendez-vous", "Présentation du salon"], demoUrl: demo("06"), accent: "#ffb995", previews: previews("06", "La réservation") },
+  { id: "07", name: "Les Échappées", business: "Tourisme & escapades nature", description: "Un univers naturel et apaisant pour présenter vos expériences, donner envie de partir et réserver une activité.", categories: ["showcase", "booking"], features: ["Catalogue d’escapades", "Réservation d’activités", "Informations pratiques"], demoUrl: demo("07"), accent: "#e8eddf", previews: previews("07", "La réservation") },
+  { id: "08", name: "Atelier Solide", business: "Bâtiment & artisans", description: "Une identité affirmée pour présenter vos métiers, illustrer vos projets et recueillir les demandes de vos futurs clients.", categories: ["showcase"], features: ["Présentation des métiers", "Inspirations & méthode", "Formulaire de contact"], demoUrl: demo("08"), accent: "#f5d45b", previews: previews("08", "Le formulaire") },
 ];

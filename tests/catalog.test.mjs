@@ -14,8 +14,8 @@ function jpegDimensions(bytes) {
   }
   throw new Error("JPEG dimensions not found");
 }
-test("six demos have their desktop and mobile assets", () => {
-  for (const id of ["01","02","03","04","05","06"]) {
+test("eight demos have their desktop and mobile assets", () => {
+  for (const id of ["01","02","03","04","05","06","07","08"]) {
     assert.ok(source.includes('id: "' + id + '"'));
     for (const device of ["desktop","mobile"]) for (const view of ["home","detail"]) {
       const path = new URL("../public/previews/" + id + "-" + device + "-" + view + ".jpg", import.meta.url);
