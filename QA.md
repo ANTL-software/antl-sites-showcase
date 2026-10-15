@@ -10,3 +10,9 @@
 - Aucune transaction ni réservation réelle, pas de collecte de données sur ce catalogue.
 
 Cette recette simule les dimensions des appareils ; elle ne remplace pas un essai tactile sur Safari iOS et Android. Les captures sont statiques : actualiser le catalogue après une modification des démos.
+
+## Actualisation du template 06 — 15 octobre 2026
+
+- Quatre captures renouvelées depuis GitHub Pages après le déploiement réussi du commit `7a67909` : accueil et réservation, desktop 1440 × 1000 et mobile 390 × 844.
+- Cadrage des quatre images contrôlé ; carrousel Studio Parallèle vérifié en local sur les deux formats, passage à la seconde capture et aperçu agrandi.
+- `npm run verify` : 7 tests de catalogue/consentement et 3 tests du build passent ; TypeScript, Vite et prérendu réussis.

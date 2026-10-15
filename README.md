@@ -14,7 +14,7 @@ Vitrine des six modèles de sites antl. React + Vite + TypeScript strict, SASS e
 - `src/hooks` : filtrage et logique de carrousel.
 - `src/views/components` : composants de présentation ; `src/views/layouts` : composition de la page.
 - `src/utils/styles/_variables.scss` : palette et polices ; `_mixins.scss` : responsive et focus.
-- `public/previews` : captures JPEG des démos publiées, réalisées le 8 octobre 2026. Deux écrans par appareil et par modèle : 1440 × 1000 et 390 × 844. Les captures sont statiques ; les renouveler après une évolution des démos.
+- `public/previews` : captures JPEG des démos publiées, réalisées le 8 octobre 2026, avec les quatre captures du template 06 renouvelées le 15 octobre 2026. Deux écrans par appareil et par modèle : 1440 × 1000 et 390 × 844. Les captures sont statiques ; les renouveler après une évolution des démos.
 - Logo copié du dépôt `external_website`, sans modification. Identité dérivée de antl.fr : violet #8b5cf6, graphite #2d3748, Playfair Display et fonds quadrillés.
 
 Chaque capture est référencée par son nom de fichier dans le catalogue. Pour ajouter un modèle, ajouter sa configuration et ses captures : aucune modification des composants nécessaire. Le nom antl reste toujours en minuscules.
