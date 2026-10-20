@@ -25,3 +25,9 @@ Cette recette simule les dimensions des appareils ; elle ne remplace pas un essa
 - Les deux nouveaux sites ont été contrôlés en 320, 390, 768 et 1440 px sans débordement horizontal ; sept tests d’architecture et de comportement passent dans leurs dépôts.
 - Carrousels des deux nouvelles fiches : format desktop/mobile, seconde capture, dimensions et chargement des images, ouverture et fermeture de l’aperçu vérifiés. Le filtre réservation conserve trois modèles dont Les Échappées ; le catalogue complet en affiche huit.
 - `npm run verify` et `DEPLOY_TARGET=github-pages npm run verify` passent : 7 tests catalogue/consentement et 3 tests du build par cible, HTML prérendu et données structurées contenant les huit démos.
+
+## Correction de la capture Véloce — 20 octobre 2026
+
+- `03-desktop-detail.jpg` renouvelée depuis le template 03 public, en 1440 × 1000 : les deux images absentes de Primavera et Mike Vera sont désormais présentes.
+- Avant capture, contrôle des quatre images de la page : `complete === true` et dimensions naturelles non nulles ; inspection visuelle des trois photographies de la collection.
+- Les trois autres captures du template 03 ont été inspectées et ne présentent pas ce défaut.

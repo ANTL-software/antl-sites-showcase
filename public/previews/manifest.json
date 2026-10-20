@@ -67,7 +67,13 @@
         {
           "file": "03-desktop-detail.jpg",
           "width": 1440,
-          "height": 1000
+          "height": 1000,
+          "capturedAt": "2026-10-20",
+          "verifiedImages": [
+            "Primavera",
+            "Mike Vera",
+            "Lavande Spezia"
+          ]
         },
         {
           "file": "03-mobile-home.jpg",
